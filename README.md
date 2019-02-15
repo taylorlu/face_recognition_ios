@@ -8,4 +8,7 @@
 # Application
 1. Enrollment and store features in local sandbox.
 2. Retrieve by hnswlib.
-![]()
+<div align="center">
+<img src="https://github.com/taylorlu/face_recognition_ios/blob/master/pics/IMG_1756.jpg" height="330" width="190" >
+<img src="https://github.com/taylorlu/face_recognition_ios/blob/master/pics/IMG_1758.jpg" height="330" width="190" >
+</div>
