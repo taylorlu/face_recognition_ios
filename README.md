@@ -5,6 +5,8 @@
 1. OpenCV3.4.0
 2. [NCNN](https://github.com/Tencent/ncnn) framework, use to detect face.
 3. pretraned facenet model, can be downloaded in [InceptionResnet.mlmodel](https://pan.baidu.com/s/1aleEh9ceXpGisZp3V_6Xyw)
+# Test platform
+  App build and run on iPhone SE, arm64 architecture.
 # Application
 1. Enrollment and store features in local sandbox.
 2. Retrieve by hnswlib.
