@@ -10,8 +10,14 @@
 # Application
 1. Enrollment and store features in local sandbox.
 2. Retrieve by hnswlib.
+
 <div align="center">
-<img src="https://github.com/taylorlu/face_recognition_ios/blob/master/pics/IMG_1756.jpg" height="330" width="190" >
-<img src="https://github.com/taylorlu/face_recognition_ios/blob/master/pics/IMG_1758.jpg" height="330" width="190" >
+<img src="https://github.com/taylorlu/face_recognition_ios/blob/master/pics/IMG_1756.jpg" height="414" width="240" >
+<img src="https://github.com/taylorlu/face_recognition_ios/blob/master/pics/IMG_1758.jpg" height="414" width="240" >
 </div>
+
 3. All the name you enrolled can be duplicated, the retrieve algorithm identify the face when the Euclidean Distance is smaller than 0.5, since all the face embedding vector is under L2 norm and confined in a high dimensional sphere whose radius is euqal to 1. The largest distance is 2.0.
+
+<div align="center">
+<img src="https://github.com/taylorlu/face_recognition_ios/blob/master/pics/centerloss.png" height="200" width="450" >
+</div>
