@@ -230,6 +230,7 @@ cv::Mat drawDetection(const cv::Mat &img, std::vector<Bbox> &box) { //Draw bound
             start_time = CACurrentMediaTime();
             
             float *ret = [self faceEmbeddingCoreML:frame(rect).clone()];
+            finalBbox[boxIndex].text = std::string("UnKnown");
             
             if(app_alg->cur_element_count>0) {
                 std::priority_queue<std::pair<float, hnswlib::labeltype >> queue = app_alg->searchKnn(ret, 1);
