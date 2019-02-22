@@ -4,7 +4,7 @@
 # Prerequisites
 1. OpenCV3.4.0
 2. [NCNN](https://github.com/Tencent/ncnn) framework, use to detect face.
-3. pretraned facenet model, can be downloaded in [InceptionResnet.mlmodel](https://pan.baidu.com/s/1aleEh9ceXpGisZp3V_6Xyw)
+3. pretraned facenet model, can be downloaded in [InceptionResnet.mlmodel](https://pan.baidu.com/s/1I7S-HHWwYcSxvMzK0RULwg)
 # Test platform
   App builds and running on iPhone SE successfully, `arm64 architecture`.
 # Application
