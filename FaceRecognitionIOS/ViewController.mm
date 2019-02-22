@@ -213,7 +213,7 @@ cv::Mat drawDetection(const cv::Mat &img, std::vector<Bbox> &box) { //Draw bound
         flip(frame, frame, 1);
     }
     
-    ncnn::Mat ncnn_img = ncnn::Mat::from_pixels(frame.data, ncnn::Mat::PIXEL_BGR2RGB, frame.cols, frame.rows);
+    ncnn::Mat ncnn_img = ncnn::Mat::from_pixels(frame.data, ncnn::Mat::PIXEL_RGB, frame.cols, frame.rows);
     std::vector<Bbox> finalBbox;
     double start_time = CACurrentMediaTime();
     mtcnn.detect(ncnn_img, finalBbox);
